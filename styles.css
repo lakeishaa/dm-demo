@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "IBM Plex Mono", monospace;
+  /* min-height: 100vh;  */
+  /* transform: scale(1.5px); */
+  font-size: 23px;
+  background-color: white;
+  color: rgb(45, 72, 192);
+  /* border: 2px solid white; */
+}
+
+.whole-container {
+  width: 100vw;
+  height: 100vh;
+  border: 2px solid white;
+  /* overflow: hidden; */
+  position: absolute;
+  z-index: 10;
+}
+
+#thingmabob {
+  text-align: center;
+}
+
+.carrot {
+  margin-left: -10px;
+}
+
+#doohickey {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+#ultra-container {
+  display: inline-block;
+}
+
+#ultra {
+  margin-bottom: 10px;
+  width: 209px;
+  background-color: white;
+  color: black;
+  /* border-bottom: 5px gray solid;
+  border-right: 10px gray solid;
+  border-left: 5px gray solid;
+  border-top: 10px gray solid; */
+}
+
+#jit-area {
+  text-align: left;
+  margin-top: 10px;
+}
+
+#jit-area-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 240px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 13%;
+  /* font-size: 22.5px; */
+  font-size: 27px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+/* .footer {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 10;
+} */
+
+/* .footer-right {
+  text-align: right;
+  float: right;
+  position: absolute;
+  bottom: 10px;
+  z-index: 10;
+} */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* background-color: #f8f8f8; */
+  padding: 10px;
+  /* box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);  */
+}
+
+.flex-row-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-row-item {
+  flex: 1;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#xButton {
+  top: -32px !important;
+  right: 0px !important;
+}
+
+.hide {
+  display: block;
+}
+
+#clickx {
+  top: -32px !important;
+  right: 0px !important;
+  position: fixed;
+}
+
+.more-info {
+  display: none;
+  position: fixed;
+  top: 22.5%;
+  left: 17%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  /* padding: 20px; */
+  /* border: 1px solid #ccc; */
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  z-index: 998; /* Ensure the popup is below the close button overlay */
+  width: 300px;
+  font-size: 10px;
+  /* display:block; */
+  /* height: 60%; */
+  /* didplay: none; */
+}
+
+#desc-1 {
+  font-size: 15px !important;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding-left: center;
+  padding-right: center;
+  text-align: center;
+  top: 3vh;
+  position: absolute;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+/* i changed something here too */
+
+#desc-1:hover {
+  cursor: pointer;
+}
+
+.hide {
+  display: block;
+}
+
+#clickx {
+  top: -32px !important;
+  right: 0px !important;
+  position: fixed;
+}
+
+#xButton {
+  top: -32px !important;
+  right: 0px !important;
+}
+
+ul,
+li {
+  font-size: 12px !important;
+  border: none !important;
+}
+
+.password {
+  list-style-type: none !important; /* Remove bullets */
+}
